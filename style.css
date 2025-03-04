@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Ownglyph_wiseelist-Rg';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2501-1@1.1/Ownglyph_wiseelist-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: Ownglyph_wiseelist-Rg;
+}
+
+h1 span:nth-child(1) {color:aqua}
+h1 span:nth-child(2) {color:black}
+h1 span:nth-child(3) {color:aqua}
+h1 span:nth-child(4) {color:yellow}
+h1 span:nth-child(5) {color:aqua}
+
+button{
+    cursor: pointer;
+    padding: 0 16px 0 16px;
+}
+button:hover {
+    background: blue;
+}
+button:click {
+    background: blue;
+
+}
+button:focus {
+    outline: skyblue;
+
+}
